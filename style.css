@@ -1,29 +1,25 @@
-/* Perusrunko: määritellään fontti, taustaväri, tekstin väri ja riviväli */
 body {
     font-family: system-ui, sans-serif;
-    background-color: #121212; /* Tumma tausta */
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
-    color: #e0e0e0; /* Vaalea teksti tummalle taustalle */
+    color: #333;
     line-height: 1.6;
   }
   
-  /* Ylätunniste: taustaväri ja tekstin muotoilu */
   header {
-    background-color: #1e3a5f;
-    color: #ffffff;
+    background-color: #2c3e50;
+    color: white;
     padding: 1.5rem;
     text-align: center;
   }
   
-  /* Navigaatioalue: marginaali yläreunaan */
   nav {
     margin-top: 1rem;
   }
   
-  /* Linkit navigaatiossa */
   nav a {
-    color: #90caf9; /* Kirkas vaalea sininen */
+    color: #ecf0f1;
     margin: 0 1rem;
     text-decoration: none;
     font-weight: bold;
@@ -33,30 +29,16 @@ body {
     text-decoration: underline;
   }
   
-  /* Pääsisältöalue: keskitys, taustaväri ja varjostus */
   main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background: #1e1e1e; /* Tumma sisältölaatikko */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   
-  /* Kuvat: skaalautuvat ja pyöristetyt kulmat */
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-    margin: 1rem 0;
-  }
-  
-  /* Alatunniste: keskitys ja neutraali tausta */
   footer {
     text-align: center;
-    background-color: #1a1a1a;
+    background-color: #ddd;
     padding: 1rem;
-    color: #aaaaaa;
-    font-size: 0.9rem;
   }
